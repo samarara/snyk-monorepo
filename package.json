@@ -1,0 +1,19 @@
+{
+  "name": "snyk-monorepo",
+  "version": "0.0.1",
+  "description": "testing snyk on lerna",
+  "main": "index.js",
+  "scripts": {
+    "start:a": "cd packages/server-a && npm start; cd-",
+    "start:b": "cd packages/server-b && npm start; cd-",
+    "start": "npm run start:a & npm run start:b &"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

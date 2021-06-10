@@ -1,0 +1,17 @@
+{
+  "name": "server-a",
+  "version": "0.0.1",
+  "description": "testing snyk on lerna",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
